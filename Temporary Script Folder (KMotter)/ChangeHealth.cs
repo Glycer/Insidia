@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 using System.Collections;
 using UnityEngine;
 
 public class ChangeHealth : MonoBehaviour {
 
-    /* As a placeholder, I'm referring to whatever script will carry health data
-     * as 'StatScript'
+    /* As a placeholder, I'm referring to whatever script that will carry health
+	data as 'StatScript'
      */
 
     public static Action</* StatScript, */ float> Damage;
